@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import { delDepartmentsAPI, updateDepartmentsAPI } from "@/api/departments"
+import { delDepartmentsAPI } from "@/api/departments"
 // 该组件需要对外开放属性 外部需要提供一个对象 对象里需要有name  manager
 export default {
     name: "TreeTools",
